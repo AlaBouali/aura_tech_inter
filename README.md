@@ -28,7 +28,7 @@ also there is an predefined and customizable secure admin panel with all necessa
   <li>checking file extensions and content types to prevent uploading any malicious file.</li>
   <li>storing the passwords in non-plaintext format (hashes).</li>
   <li>redirecting the user/admin when accessing any page that allow higher or different access level.</li>
-  <li>diny non authenticated persons from viewing pages that requires authentication.</li>
+  <li>deny non authenticated persons from viewing pages that requires authentication.</li>
   <li>storing user session data and admin session data each in a seperated session variables to prevent any confusion.</li>
   <li>instead of using login manager, I created a specific class to manage the session and other to validate it. The login manager doesn't have an expiration date for the session which is not practcal because the session must have a lifespan that can't be passed, also every time it is called it will connect to the database and with many users, this will slow down the application! So, when starting any user/admin session I add a variable indicating when the session started and when the current_time - session_start_time passes the duration of the session's lifespan then it's no longer valid. And about the aproach of loading user's data, on login I store all user's data in the session and if any update happens then I update the updated values, thus, putting less pressure on the database.</li>
 </ul>
