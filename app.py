@@ -27,7 +27,22 @@ def get_all_python_files(path):
     return l
 
 
+"""
+(this is inspired from NextJS)
+for each route file, we will give it: function name and a path depending on its location:
 
+urls/login.py ==> /login && /login/
+
+urls/register.py ==> /register && /register/
+
+while keeping the same function body for both paths !
+
+even the dynamic routes are possible:
+
+urls/show-user-profile/{user_id} ==> /show-user-profile/<user_id> && /show-user-profile/<user_id>/
+
+this will make adding / editing / fixing / deleting each site functionality so easy !
+"""
 def load_route(path,script_location,second=False):
     script=open(script_location).read()
     url_vars=[]
@@ -66,15 +81,19 @@ def load_all_routes():
 
 
 def build_app():
+    #first we fech all code base from 'src/base.py' file to use all its classes, static variables and static functions in the next files
     s=load_file('src/base.py')
+    #if there is any files to include after the code base is loaded then they go here
     INCLUDED_FILES=get_all_python_files('includes')
+    #load all models from models folder to the main script
     for x in INCLUDED_FILES:
         s+=load_file(x)
     INCLUDED_FILES=get_all_python_files('models')
     for x in INCLUDED_FILES:
         s+=load_file(x)
+    #load all the routes after doing the ncessary changes
     s+=load_all_routes()
-    #https://stackoverflow.com/questions/66644975/importerror-cannot-import-name-columnentity-from-sqlalchemy-orm-query
+    #now we add last touches to the code
     s+="""
 # now we will run the application
 
@@ -129,5 +148,5 @@ if __name__ == '__main__':
     f.close()
     return s
 
-
+#we run the whole code as a single script in the RAM after loading all necessary components
 exec_app(build_app(),globals())
