@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block body %}
+  <br>
+  
+    <p><b>Users:</b></p>
+	<br>
+	<ul>
+	{% for i in users %}
+		<li>
+		<b>* <a style="color:blue" href="/show-user-profile/{{ i['id'] }}">{{ i['firstname'] |capitalize }} {{ i['lastname'] |capitalize }}</a></b>
+		</li>
+		<br>
+		<br>
+	{% endfor %}
+	</ul>
+{% endblock %}

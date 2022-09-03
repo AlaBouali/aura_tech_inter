@@ -1,0 +1,422 @@
+{
+    "app": {
+        "host": "0.0.0.0",
+        "port": 5000,
+        "threaded": true,
+        "ssl_context": null,
+        "processes": 1
+    },
+    "server": {
+        "DEV_MODE": false,
+        "ENV": "production",
+		"FLASK_ENV": "production",
+        "DEBUG": true,
+        "TESTING": false,
+        "PROPAGATE_EXCEPTIONS": null,
+        "PRESERVE_CONTEXT_ON_EXCEPTION": null,
+        "SECRET_KEY": "XSSZLfkWwzjpWiwEHpdeN8b9CSJdTabBNBUnGo7lRRDUmp8j3NFjEqYlx9cldCqL",
+        "USE_X_SENDFILE": false,
+        "SERVER_NAME": null,
+        "APPLICATION_ROOT": "/",
+        "SESSION_COOKIE_NAME": "PSSessionId",
+        "SESSION_COOKIE_DOMAIN": null,
+        "SESSION_COOKIE_PATH": null,
+        "SESSION_COOKIE_HTTPONLY": false,
+        "SESSION_COOKIE_SECURE": null,
+        "SESSION_COOKIE_SAMESITE": "Lax",
+        "SESSION_REFRESH_EACH_REQUEST": true,
+        "MAX_CONTENT_LENGTH": 52428800,
+        "SEND_FILE_MAX_AGE_DEFAULT": null,
+        "TRAP_BAD_REQUEST_ERRORS": null,
+        "TRAP_HTTP_EXCEPTIONS": false,
+        "EXPLAIN_TEMPLATE_LOADING": false,
+        "PREFERRED_URL_SCHEME": "http",
+        "JSON_AS_ASCII": true,
+        "JSON_SORT_KEYS": true,
+        "JSONIFY_PRETTYPRINT_REGULAR": false,
+        "JSONIFY_MIMETYPE": "application/json",
+        "TEMPLATES_AUTO_RELOAD": null,
+        "MAX_COOKIE_SIZE": 4093,
+        "RECAPTCHA_SITE_KEY": "6LfdC8chAAAAAIN8vi4g8ANx5lz9OixEnT2QrXDL",
+        "RECAPTCHA_SECRET_KEY": "6LfdC8chAAAAAHDTUElFuy6dVAXaTwoHNo0mQ3Ss",
+        "MAIL_SERVER": "smtp.gmail.com",
+        "MAIL_PORT": 465,
+        "MAIL_USERNAME": "",
+        "MAIL_PASSWORD": "",
+        "MAIL_USE_TLS": false,
+        "MAIL_USE_SSL": true,
+		"S3_BUCKET":"",
+		"S3_KEY":"",
+		"S3_SECRET":"",
+		"S3_LOCATION":"",
+        "SQLALCHEMY_TRACK_MODIFICATIONS": false,
+		"PASSWORD_HASH_SALT":"wsxdcfghghytghkjghjghkj",
+		"STORAGE_TYPE":"local",
+		"MONGODB_URI":"mongodb+srv://root:fatimasensei123@cluster0.wgz56.mongodb.net/db",
+        "SQLALCHEMY_DATABASE_URI": "sqlite:///db.db",
+        "SQLALCHEMY_DATABASE_URI_SAMPLES": [
+            "sqlite:///foo.db",
+            "mysql+pymysql://scott:tiger@localhost/foo",
+            "mariadb+pymysql://scott:tiger@localhost/foo",
+            "postgresql://scott:tiger@localhost/foo",
+            "oracle://scott:tiger@127.0.0.1:1521/foo",
+            "mssql+pymssql://scott:tiger@hostname:port/foo"
+        ],
+        "ALLOWED_EXTENSIONS": [
+            "png",
+            "jpg",
+            "jpeg",
+            "gif",
+            "pdf"
+        ],
+        "ALLOWED_MIMETYPES": [
+            "application/pdf",
+            "application/x-pdf",
+            "image/png",
+            "image/jpg",
+            "image/jpeg"
+        ],
+        "PERMANENT_SESSION": true,
+        "JWT_ALGORITHM": "HS256",
+        "JWT_SECRET_KEY": "IWAS3282MQmOP8CSIUSpzMxvQTyOYB4IYlk102ohGUCL630O6GySfWae27O7Y9IW",
+        "JWT_TOKEN_LIFETIME": 1200,
+        "AUTHORIZATION_HEADER": "Authorization",
+        "CORS_OPTIONS_HEADERS": {
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Headers": "Content-Type, Authorization",
+            "Access-Control-Allow-Methods": "PUT, DELETE, GET, POST, OPTIONS"
+        },
+        "CORS_HEADERS": {
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Credentials": "true"
+        },
+        "ADDITIONAL_HEADERS": {
+            "X-Frame-Options": "SAMEORIGIN",
+            "X-Content-Type-Options": "nosniff",
+            "Referrer-Policy": "same-origin",
+            "X-Powered-By": "ProtoStar",
+            "X-Permitted-Cross-Domain-Policies": "none",
+            "Permissions-Policy": "geolocation 'none'; camera 'none'; speaker 'none';"
+        },
+        "UNWANTED_HEADERS": [],
+        "USER_SESSION_LIFETIME": 1200,
+        "ADMIN_SESSION_LIFETIME": 1200,
+        "CSRF_TOKEN_NAME": "form_csrf_token",
+		"JWT_SESSION_VARIABLE_NAME":"DECODED_JWT_TOKEN_DATA",
+        "UNAUTHENTICATED_USER_REDIRECT": "/login",
+        "AUTHENTICATED_USER_REDIRECT": "/",
+		"DEFAULT_USER_UPLOAD_FOLDER":"static/user_uploads",
+        "UNAUTHENTICATED_ADMIN_REDIRECT": null,
+        "AUTHENTICATED_ADMIN_REDIRECT": null,
+        "ACCEPTED_REFERER_DOMAINS": [],
+        "ACCEPTED_ORIGIN_DOMAINS": [],
+        "FIREBASE_APIKEY": "",
+        "FIREBASE_STORAGE_BUCKET": null,
+        "FIREBASE_CONFIG_FILE": "firebase_creds.json",
+        "INVALID_CHECK_STATUS_CODE": 401,
+        "INVALID_RECAPTCHA_RESPONSE": "Invalid recaptcha",
+        "INVALID_RECAPTCHA_RESPONSE_API": {
+            "Message": "Invalid recaptcha"
+        },
+        "INVALID_SESSION_RESPONSE": "Invalid Session",
+        "INVALID_SESSION_RESPONSE_API": {
+            "Message": "Invalid Session"
+        },
+        "INVALID_FLASK_SESSION_RESPONSE": "Invalid Flask Session",
+        "INVALID_FLASK_SESSION_RESPONSE_API": {
+            "Message": "Invalid Flask Session"
+        },
+        "INVALID_REFERER_RESPONSE": "Invalid Referrer Header",
+        "INVALID_REFERER_RESPONSE_API": {
+            "Message": "Invalid Referrer Header"
+        },
+        "INVALID_ORIGIN_RESPONSE": "Invalid Origin Header",
+        "INVALID_ORIGIN_RESPONSE_API": {
+            "Message": "Invalid Origin Header"
+        },
+        "INVALID_CSRF_TOKEN_RESPONSE": "Invalid CSRF Token",
+        "INVALID_CSRF_TOKEN_RESPONSE_API": {
+            "Message": "Invalid CSRF Token"
+        },
+        "INVALID_JWT_TOKEN_RESPONSE": {
+            "Message": "Invalid JWT Token"
+        },
+        "INVALID_FILES_RESPONSE": "Invalid Files",
+        "INVALID_FILES_RESPONSE_API": {
+            "Message": "Invalid Files"
+        },
+        "ADMIN_PANEL_ENABLED": true,
+		"ADMIN_AVATAR_HEIGHT":64,
+		"ADMIN_AVATAR_WIDTH":64,
+		"ADMIN_PANEL_EDIT_DISABLED": false,
+        "ADMIN_PANEL_RECAPTCHA_ENABLED": true,
+		"ADMIN_PANEL_CATEGORIES":[
+			{
+			"name":"Options"
+			},
+			{
+			"name":"Language"
+			}
+		],
+		"ADMIN_PANEL_SUBCATEGORIES":[],
+		"DEFAULT_ADMIN_UPLOAD_FOLDER":"static/admin_uploads",
+		"ADMIN_PANEL_LOGIN_LINK_NAME": "Login",
+        "ADMIN_PANEL_LOGOUT_LINK_NAME": "Logout",
+        "ADMIN_RETURN_HOME_LINK_NAME": "Return to website",
+		"ADMIN_PANEL_CHANGE_PASSWORD_LINK_NAME":"Change password",
+		"ADMIN_PANEL_PROFILE_LINK_NAME":"Profile",
+		"ADMIN_PANEL_INDEX_TEMPLATE":"index.html",
+		"ADMIN_PANEL_LOGIN_TEMPLATE":"/login.html",
+		"ADMIN_PANEL_PROFILE_TEMPLATE":"profile.html",
+		"ADMIN_PANEL_CHANGE_PASSWORD_TEMPLATE":"change_password.html",
+		"DEFAULT_ADMIN_LOGIN_CREDENTIALS": {
+            "username":"admin",
+            "password":"admin",
+			"email":"admin@localhost",
+			"full_name":"admin",
+			"phone":"1234567890",
+			"super_admin":true
+        },
+		"ADMIN_APP_TEMPLATES_FOLDER":"admin",
+		"ADMIN_APP_SETTINGS": {
+			"name": "Admin panel",
+			"template_mode": "bootstrap3",
+            "subdomain": null,
+            "translations_path": null,
+            "endpoint": null,
+            "static_url_path": null,
+            "base_template": null,
+            "category_icon_classes": null
+        },
+		"ADMINDASHBOARDVIEW_SETTINGS":{
+			"name":null,
+			"category":null,
+			"endpoint":null,
+			"url":null,
+			"template":"admin/index.html",
+			"menu_class_name":null,
+			"menu_icon_type":null,
+			"menu_icon_value":null
+		},
+		"ADMIN_PANEL_LINKS_ORDER":[
+			"ADMIN_PANEL_SUPER_ADMIN_LINKS",
+			"ADMIN_PANEL_EDITOR_ADMIN_LINKS",
+			"ADMIN_PANEL_AUTHENTICATED_LINKS",
+			"ADMIN_PANEL_UNAUTHENTICATED_LINKS",
+			"ADMIN_PANEL_NORMAL_LINKS"
+		],
+		"ADMIN_PANEL_NORMAL_LINKS":[
+			{
+				"name":"Return to website",
+				"category":"Options",
+				"url":"/"
+			}
+		],
+		"ADMIN_PANEL_AUTHENTICATED_LINKS":[
+			{
+				"name":"Profile",
+				"category":"Options",
+				"url":"/admin/profile"
+			},
+			{
+				"name":"Change password",
+				"category":"Options",
+				"url":"/admin/change_password"
+			},
+			{
+				"name":"Logout",
+				"category":"Options",
+				"url":"/admin/logout"
+			}
+		],
+		"ADMIN_PANEL_UNAUTHENTICATED_LINKS":[
+			{
+				"name":"Login",
+				"category":"Options",
+				"url":"/admin/login"
+			}
+		],
+		"ADMIN_PANEL_SUPER_ADMIN_LINKS":[
+			{
+				"name":"ala",
+				"category":"Options",
+				"url":"/admin/ala/<id>"
+			}
+		],
+		"ADMIN_PANEL_EDITOR_ADMIN_LINKS":[],
+		
+		"DEFAULT_ADMIN_PANEL_LANGUAGE":"en",
+		"ADMIN_PANEL_LANGUAGE_OPTIONS":{
+			"en":{
+				"name":"EN",
+				"category":"Language"
+			},
+			"fr":{
+				"name":"FR",
+				"category":"Language"
+			},
+			"ar":{
+				"name":"AR",
+				"category":"Language"
+			}
+		},
+		"ADMIN_PANEL_SET_LANGUAGE_URI":"/set_admin_panel_language",
+		"ADMIN_PANEL_SET_LANGUAGE_SESSION_PARAMETER":"admin_panel_language",
+		"TRANSLATEDICT":{
+			"Save":{
+				"en":"Save",
+				"fr":"Sauvegarder",
+				"ar":"حفظ"
+			},
+			"Cancel":{
+				"en":"Cancel",
+				"fr":"Annuler",
+				"ar":"إلغاء"
+			},
+			"full name":{
+				"en":"full name",
+				"fr":"nom et prénom",
+				"ar":"الاسم الكامل"
+			},
+			"email":{
+				"en":"email",
+				"fr":"e-mail",
+				"ar":"البريد الإلكتروني"
+			},
+			"Profile":{
+				"en":"Profile",
+				"fr":"Profil",
+				"ar":"الملف الشخصي"
+			},
+			"phone":{
+				"en":"phone",
+				"fr":"le téléphone",
+				"ar":"الهاتف"
+			},
+			"Update":{
+				"en":"Update",
+				"fr":"mettre à jour",
+				"ar":"تحديث"
+			},
+			"old password":{
+				"en":"old password",
+				"fr":"ancien mot de passe",
+				"ar":"كلمة المرور القديمة"
+			},
+			"Change password":{
+				"en":"Change password",
+				"fr":"Changer le mot de passe",
+				"ar":"تغيير كلمة السر"
+			},
+			"new password":{
+				"en":"new password",
+				"fr":"nouveau mot de passe",
+				"ar":"كلمة السر الجديدة"
+			},
+			"With selected":{
+				"en":"With selected",
+				"fr":"Avec sélectionné",
+				"ar":"مع الخيارات"
+			},
+			"Save and Add Another":{
+				"en":"Save and Add Another",
+				"fr":"Enregistrer et ajouter un autre",
+				"ar":"احفظ وأضف آخر"
+			},
+			"Save and Continue Editing":{
+				"en":"Save and Continue Editing",
+				"fr":"Enregistrer et continuer l'édition",
+				"ar":"احفظ وتابع التحرير"
+			},
+			"Login":{
+				"en":"Log In",
+				"fr":"connexion",
+				"ar":"تسجيل الدخول"
+			},
+			"Admin panel":{
+				"en":"Admin panel",
+				"fr":"Panneau d'administration",
+				"ar":"لوحة الادارة"
+			},
+			"Logout":{
+				"en":"Log Out",
+				"fr":"Se déconnecter",
+				"ar":"تسجيل خروج"
+			},
+			"username":{
+				"en":"username",
+				"fr":"nom d'utilisateur",
+				"ar":"اسم المستخدم"
+			},
+			"admin":{
+				"en":"password",
+				"fr":"mot de passe",
+				"ar":"كلمة السر"
+			},
+			"password":{
+				"en":"password",
+				"fr":"mot de passe",
+				"ar":"كلمة السر"
+			},
+			"Return to website":{
+				"en":"Return to website",
+				"fr":"Retour au site Web",
+				"ar":"العودة إلى الموقع"
+			},
+			"Options":{
+				"en":"Options",
+				"fr":"Choix",
+				"ar":"خيارات"
+			},
+			"Language":{
+				"en":"Language",
+				"fr":"Language",
+				"ar":"لغة"
+			},
+			"Record was successfully saved.":{
+				"en":"Record was successfully saved.",
+				"fr":"L'enregistrement a été enregistré avec succès.",
+				"ar":"تم حفظ السجل بنجاح."
+			},
+			"Failed to update record.":{
+				"en":"Failed to update record.",
+				"fr":"Échec de la mise à jour de l'enregistrement.",
+				"ar":"فشل تحديث السجل."
+			},
+			"Record does not exist.":{
+				"en":"Record does not exist.",
+				"fr":"L'enregistrement n'existe pas.",
+				"ar":"السجل غير موجود."
+			},
+			"Record was successfully deleted.":{
+				"en":"Record was successfully deleted.",
+				"fr":"L'enregistrement a été supprimé avec succès.",
+				"ar":"تم حذف السجل بنجاح."
+			}
+		},
+		"USER_AUTHENTICATED_ENDPOINTS":[
+			"/update_profile",
+			"/change_pwd",
+			"/list-users",
+			"/show-user-profile",
+			"/send-money",
+			"/logout"
+		],
+		"USER_UNAUTHENTICATED_ENDPOINTS":[
+			"/login",
+			"/register"
+		],
+		"RECAPTCHA_ENDPOINTS":[
+			"/login",
+			"/register"
+		],
+		"AUTO_SAVE_FILES_ENDPOINTS":[
+			"/update_profile"
+		],
+		"CSRF_PROTECTED_USER_ENDPOINTS":[
+			"/update_profile",
+			"/change_pwd",
+			"/send-money"
+		]
+    }
+}

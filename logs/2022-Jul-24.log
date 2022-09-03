@@ -1,0 +1,16 @@
+[2022-Jul-24 14:26:35] 127.0.0.1 GET /admin_panel/logout? 302 FOUND
+[2022-Jul-24 14:30:28] 127.0.0.1 GET /admin_panel/login? 200 OK
+[2022-Jul-24 14:30:39] 127.0.0.1 POST /admin_panel/login? 200 OK
+[2022-Jul-24 14:30:39] 127.0.0.1 POST /admin_panel/login? 200 OK
+[2022-Jul-24 14:30:47] 127.0.0.1 POST /admin_panel/login? 200 OK
+[2022-Jul-24 14:30:47] 127.0.0.1 POST /admin_panel/login? 200 OK
+[2022-Jul-24 14:30:47] 127.0.0.1 POST /admin_panel/login? 200 OK
+[2022-Jul-24 14:30:59] 127.0.0.1 POST /admin_panel/login? 302 FOUND
+[2022-Jul-24 14:30:59] 127.0.0.1 POST /admin_panel/login? 302 FOUND
+[2022-Jul-24 14:30:59] 127.0.0.1 POST /admin_panel/login? 302 FOUND
+[2022-Jul-24 14:30:59] 127.0.0.1 POST /admin_panel/login? 302 FOUND
+[2022-Jul-24 14:30:59] 127.0.0.1 GET /admin_panel? 200 OK
+[2022-Jul-24 14:30:59] 127.0.0.1 GET /admin_panel? 200 OK
+[2022-Jul-24 14:30:59] 127.0.0.1 GET /admin_panel? 200 OK
+[2022-Jul-24 14:30:59] 127.0.0.1 GET /admin_panel? 200 OK
+[2022-Jul-24 14:30:59] 127.0.0.1 GET /admin_panel? 200 OK

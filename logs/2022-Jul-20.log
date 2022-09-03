@@ -1,0 +1,261 @@
+[2022-Jul-20 17:24:31] 127.0.0.1 GET /? 200 OK
+[2022-Jul-20 17:24:32] 127.0.0.1 GET /favicon.ico? 404 NOT FOUND
+[2022-Jul-20 17:24:32] 127.0.0.1 GET /favicon.ico? 404 NOT FOUND
+[2022-Jul-20 17:25:30] 127.0.0.1 GET /? 200 OK
+[2022-Jul-20 17:26:55] 127.0.0.1 GET /admin_panel? 200 OK
+[2022-Jul-20 17:26:55] 127.0.0.1 GET /admin_panel? 200 OK
+[2022-Jul-20 17:28:27] 127.0.0.1 GET /spec? 404 NOT FOUND
+[2022-Jul-20 17:28:27] 127.0.0.1 GET /spec? 404 NOT FOUND
+[2022-Jul-20 17:28:27] 127.0.0.1 GET /spec? 404 NOT FOUND
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /apidocs/index.html? 302 FOUND
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /apidocs/index.html? 302 FOUND
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /apidocs/index.html? 302 FOUND
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /apidocs/index.html? 302 FOUND
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /apidocs/? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /apidocs/? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /apidocs/? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /apidocs/? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /apidocs/? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui.css? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui.css? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui.css? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui.css? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui.css? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui.css? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 200 OK
+[2022-Jul-20 17:28:40] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 200 OK
+[2022-Jul-20 17:28:41] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 200 OK
+[2022-Jul-20 17:29:35] 127.0.0.1 GET /colors/all/? 200 OK
+[2022-Jul-20 17:29:35] 127.0.0.1 GET /colors/all/? 200 OK
+[2022-Jul-20 17:29:35] 127.0.0.1 GET /colors/all/? 200 OK
+[2022-Jul-20 17:29:35] 127.0.0.1 GET /colors/all/? 200 OK
+[2022-Jul-20 17:29:35] 127.0.0.1 GET /colors/all/? 200 OK
+[2022-Jul-20 17:29:35] 127.0.0.1 GET /colors/all/? 200 OK
+[2022-Jul-20 17:29:35] 127.0.0.1 GET /colors/all/? 200 OK
+[2022-Jul-20 17:29:35] 127.0.0.1 GET /colors/all/? 200 OK
+[2022-Jul-20 17:29:35] 127.0.0.1 GET /colors/all/? 200 OK
+[2022-Jul-20 17:29:35] 127.0.0.1 GET /colors/all/? 200 OK
+[2022-Jul-20 17:29:35] 127.0.0.1 GET /colors/all/? 200 OK
+[2022-Jul-20 17:29:35] 127.0.0.1 GET /colors/all/? 200 OK
+[2022-Jul-20 17:33:31] 127.0.0.1 GET /apidocs/? 200 OK
+[2022-Jul-20 17:33:33] 127.0.0.1 GET /flasgger_static/swagger-ui.css? 304 NOT MODIFIED
+[2022-Jul-20 17:33:33] 127.0.0.1 GET /flasgger_static/swagger-ui.css? 304 NOT MODIFIED
+[2022-Jul-20 17:33:33] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:33] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:33] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:33] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:33] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:33] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:33] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:33] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:33] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:33] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:33] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:33] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:33] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:34] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:33:34] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:33:34] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:33:34] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:33:34] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:33:34] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:33:46] 127.0.0.1 GET /apidocs/? 200 OK
+[2022-Jul-20 17:33:48] 127.0.0.1 GET /flasgger_static/swagger-ui.css? 304 NOT MODIFIED
+[2022-Jul-20 17:33:48] 127.0.0.1 GET /flasgger_static/swagger-ui.css? 304 NOT MODIFIED
+[2022-Jul-20 17:33:48] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:48] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:48] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:48] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:48] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:48] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:48] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:48] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:48] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:48] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:48] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:48] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:33:49] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:33:49] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:33:49] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:33:49] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:33:49] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:33:49] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:33:49] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:33:49] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:33:49] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:33:49] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:33:49] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:33:49] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:33:49] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:38:50] 127.0.0.1 GET /apidocs/? 200 OK
+[2022-Jul-20 17:38:52] 127.0.0.1 GET /flasgger_static/swagger-ui.css? 304 NOT MODIFIED
+[2022-Jul-20 17:38:52] 127.0.0.1 GET /flasgger_static/swagger-ui.css? 304 NOT MODIFIED
+[2022-Jul-20 17:38:52] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 304 NOT MODIFIED
+[2022-Jul-20 17:38:52] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 304 NOT MODIFIED
+[2022-Jul-20 17:38:52] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 304 NOT MODIFIED
+[2022-Jul-20 17:38:52] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:38:52] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:38:52] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:38:52] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:38:52] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:38:52] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:38:52] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:38:52] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:38:52] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:38:53] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:38:53] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:38:53] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:38:53] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:38:53] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:38:53] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:38:53] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:38:53] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:38:53] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:38:53] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:38:53] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:38:53] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:38:53] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:39:12] 127.0.0.1 POST /colors/all/? 200 OK
+[2022-Jul-20 17:39:12] 127.0.0.1 POST /colors/all/? 200 OK
+[2022-Jul-20 17:39:12] 127.0.0.1 POST /colors/all/? 200 OK
+[2022-Jul-20 17:39:12] 127.0.0.1 POST /colors/all/? 200 OK
+[2022-Jul-20 17:39:12] 127.0.0.1 POST /colors/all/? 200 OK
+[2022-Jul-20 17:39:12] 127.0.0.1 POST /colors/all/? 200 OK
+[2022-Jul-20 17:39:12] 127.0.0.1 POST /colors/all/? 200 OK
+[2022-Jul-20 17:39:12] 127.0.0.1 POST /colors/all/? 200 OK
+[2022-Jul-20 17:45:43] 127.0.0.1 GET /apidocs/? 200 OK
+[2022-Jul-20 17:45:45] 127.0.0.1 GET /flasgger_static/swagger-ui.css? 304 NOT MODIFIED
+[2022-Jul-20 17:45:45] 127.0.0.1 GET /flasgger_static/swagger-ui.css? 304 NOT MODIFIED
+[2022-Jul-20 17:45:45] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 304 NOT MODIFIED
+[2022-Jul-20 17:45:45] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 304 NOT MODIFIED
+[2022-Jul-20 17:45:45] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 304 NOT MODIFIED
+[2022-Jul-20 17:45:45] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:45:45] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:45:45] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:45:45] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:45:45] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:45:45] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:45:45] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:45:45] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:45:45] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:45:46] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:45:46] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:45:46] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:45:46] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:45:46] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:45:46] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:47:00] 127.0.0.1 GET /apidocs/? 200 OK
+[2022-Jul-20 17:47:02] 127.0.0.1 GET /flasgger_static/swagger-ui.css? 304 NOT MODIFIED
+[2022-Jul-20 17:47:02] 127.0.0.1 GET /flasgger_static/swagger-ui.css? 304 NOT MODIFIED
+[2022-Jul-20 17:47:02] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 304 NOT MODIFIED
+[2022-Jul-20 17:47:02] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 304 NOT MODIFIED
+[2022-Jul-20 17:47:02] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 304 NOT MODIFIED
+[2022-Jul-20 17:47:02] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:47:02] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:47:02] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:47:02] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:47:02] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:47:02] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:47:02] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:47:02] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:47:02] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:47:03] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:47:03] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:47:03] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:47:03] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:47:03] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:47:03] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:47:03] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:47:03] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:47:03] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:47:03] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:47:03] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:47:03] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:47:03] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:48:31] 127.0.0.1 GET /apidocs/? 200 OK
+[2022-Jul-20 17:48:33] 127.0.0.1 GET /flasgger_static/swagger-ui.css? 304 NOT MODIFIED
+[2022-Jul-20 17:48:33] 127.0.0.1 GET /flasgger_static/swagger-ui.css? 304 NOT MODIFIED
+[2022-Jul-20 17:48:33] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 304 NOT MODIFIED
+[2022-Jul-20 17:48:33] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 304 NOT MODIFIED
+[2022-Jul-20 17:48:33] 127.0.0.1 GET /flasgger_static/swagger-ui-bundle.js? 304 NOT MODIFIED
+[2022-Jul-20 17:48:33] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:48:33] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:48:33] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:48:33] 127.0.0.1 GET /flasgger_static/lib/jquery.min.js? 304 NOT MODIFIED
+[2022-Jul-20 17:48:33] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:48:33] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:48:33] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:48:33] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:48:33] 127.0.0.1 GET /flasgger_static/swagger-ui-standalone-preset.js? 304 NOT MODIFIED
+[2022-Jul-20 17:48:34] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:48:34] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:48:34] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:48:34] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:48:34] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:48:34] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:48:34] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:48:34] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:48:34] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:48:34] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 17:48:34] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:48:34] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:48:34] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:48:34] 127.0.0.1 GET /flasgger_static/favicon-32x32.png? 304 NOT MODIFIED
+[2022-Jul-20 17:48:51] 127.0.0.1 POST /api/{palette}/? 200 OK
+[2022-Jul-20 17:48:51] 127.0.0.1 POST /api/{palette}/? 200 OK
+[2022-Jul-20 17:48:51] 127.0.0.1 POST /api/{palette}/? 200 OK
+[2022-Jul-20 17:48:51] 127.0.0.1 POST /api/{palette}/? 200 OK
+[2022-Jul-20 17:48:51] 127.0.0.1 POST /api/{palette}/? 200 OK
+[2022-Jul-20 17:48:51] 127.0.0.1 POST /api/{palette}/? 200 OK
+[2022-Jul-20 17:48:51] 127.0.0.1 POST /api/{palette}/? 200 OK
+[2022-Jul-20 17:48:51] 127.0.0.1 POST /api/{palette}/? 200 OK
+[2022-Jul-20 17:49:38] 127.0.0.1 GET /apispec_1.json? 200 OK
+[2022-Jul-20 21:50:05] 127.0.0.1 GET /apidocs? 308 PERMANENT REDIRECT
+[2022-Jul-20 21:50:05] 127.0.0.1 GET /apidocs/? 200 OK
+[2022-Jul-20 21:50:05] 127.0.0.1 GET /apidocs/? 200 OK
+[2022-Jul-20 21:51:23] 127.0.0.1 GET /apidocs/? 200 OK

@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block body %}
+<form method="POST">
+                <div class="mb-6">
+                  <input
+					name="email"
+                    type="email"
+                    placeholder="Email"
+                    class="bordder-[#E9EDF4] w-full rounded-md border bg-[#FCFDFE] py-3 px-5 text-base text-body-color placeholder-[#ACB6BE] outline-none transition focus:border-primary focus-visible:shadow-none"
+                  />
+                </div>
+                <div class="mb-6">
+                  <input
+					name="password"
+                    type="password"
+                    placeholder="Password"
+                    class="bordder-[#E9EDF4] w-full rounded-md border bg-[#FCFDFE] py-3 px-5 text-base text-body-color placeholder-[#ACB6BE] outline-none transition focus:border-primary focus-visible:shadow-none"
+                  />
+                </div>
+				<div class="g-recaptcha" data-sitekey="6LfdC8chAAAAAIN8vi4g8ANx5lz9OixEnT2QrXDL"></div>
+                <div class="mb-10">
+                  <input
+                    type="submit"
+                    value="Sign In"
+                    class="bordder-primary w-full cursor-pointer rounded-md border bg-primary py-3 px-5 text-base text-white transition duration-300 ease-in-out hover:shadow-md"
+                  />
+                </div>
+              </form>
+{% endblock %}

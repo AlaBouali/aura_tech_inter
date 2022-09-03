@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block body %}
+    <form method='POST'>
+		{% if request.args.get('m',None) %}
+		<div class="alert alert-success">
+       <strong>Message:</strong> {{request.args.get('m',None).replace(':','!').replace('_',' ')}}!
+       </div>
+	   {% endif %}
+	   {% if request.args.get('e',None) %}
+	   <div class="alert alert-danger">
+       <strong>Error:</strong> {{request.args.get('e',None).replace(':','!').replace('_',' ')}}!
+       </div>
+	   {% endif %}
+      <input type="password" id="old_password" class="bordder-[#E9EDF4] w-full rounded-md border bg-[#FCFDFE] py-3 px-5 text-base text-body-color placeholder-[#ACB6BE] outline-none transition focus:border-primary focus-visible:shadow-none"
+                  name="old_password" placeholder="old password">
+      <input type="password" id="password" class="bordder-[#E9EDF4] w-full rounded-md border bg-[#FCFDFE] py-3 px-5 text-base text-body-color placeholder-[#ACB6BE] outline-none transition focus:border-primary focus-visible:shadow-none"
+                  name="new_password" placeholder="new password">
+      <input type="hidden" id="{{ CSRF_TOKEN_NAME }}" class="fadeIn second" name="{{ CSRF_TOKEN_NAME }}" value="{{ get_user_session_variable(session, CSRF_TOKEN_NAME)}}">
+	  <input type="submit"  class="bordder-primary w-full cursor-pointer rounded-md border bg-primary py-3 px-5 text-base text-white transition duration-300 ease-in-out hover:shadow-md"
+                value="Update">
+    </form>
+
+{% endblock %}

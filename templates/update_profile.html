@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon
+    <div class="fadeIn first">
+      <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="" />
+    </div> -->
+
+    <!-- Login Form -->
+			<form method='POST'  enctype="multipart/form-data">
+				<center><img src="{{ get_user_session_variable(session, 'image')}}" height='100' width='100'></center>
+				<br>
+				<br>
+				<center><b> Balance : {{ get_user_session_variable(session, 'balance')}}</b></center>
+				<br>
+				<br>
+				<div class="mb-6">
+                  <input
+					name="email"
+                    type="email"
+                    placeholder="Email"
+					value="{{ get_user_session_variable(session, 'email')}}"
+                    class="bordder-[#E9EDF4] w-full rounded-md border bg-[#FCFDFE] py-3 px-5 text-base text-body-color placeholder-[#ACB6BE] outline-none transition focus:border-primary focus-visible:shadow-none"
+                  required />
+                </div>
+				<div class="mb-6">
+                  <input
+					name="firstname"
+                    type="text"
+                    placeholder="firstname"
+					value="{{ get_user_session_variable(session, 'firstname')}}"
+                    class="bordder-[#E9EDF4] w-full rounded-md border bg-[#FCFDFE] py-3 px-5 text-base text-body-color placeholder-[#ACB6BE] outline-none transition focus:border-primary focus-visible:shadow-none"
+                  required />
+                </div>
+				<div class="mb-6">
+                  <input
+					name="lastname"
+                    type="text"
+                    placeholder="lastname" 
+					value="{{ get_user_session_variable(session, 'lastname')}}"
+                    class="bordder-[#E9EDF4] w-full rounded-md border bg-[#FCFDFE] py-3 px-5 text-base text-body-color placeholder-[#ACB6BE] outline-none transition focus:border-primary focus-visible:shadow-none"
+                  required />
+                </div>
+				<div class="mb-6">
+                  <input
+					name="telephone"
+                    type="number"
+                    placeholder="telephone"
+					value="{{ get_user_session_variable(session, 'telephone')}}"
+                    class="bordder-[#E9EDF4] w-full rounded-md border bg-[#FCFDFE] py-3 px-5 text-base text-body-color placeholder-[#ACB6BE] outline-none transition focus:border-primary focus-visible:shadow-none"
+                  required />
+                </div>
+                <div class="mb-6">
+                  <input
+					name="image"
+                    type="file"
+                    accept="image/*"
+					class="bordder-[#E9EDF4] w-full rounded-md border bg-[#FCFDFE] py-3 px-5 text-base text-body-color placeholder-[#ACB6BE] outline-none transition focus:border-primary focus-visible:shadow-none"
+                   />
+                </div>
+				<div class="mb-10">
+				<input type="hidden" id="{{ CSRF_TOKEN_NAME }}" class="fadeIn second" name="{{ CSRF_TOKEN_NAME }}" value="{{ get_user_session_variable(session, CSRF_TOKEN_NAME)}}">
+                  <input
+                    type="submit"
+                    value="Update"
+                    class="bordder-primary w-full cursor-pointer rounded-md border bg-primary py-3 px-5 text-base text-white transition duration-300 ease-in-out hover:shadow-md"
+                  />
+                </div>
+    
+      </form>
+
+    <!-- Remind Passowrd 
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Forgot Password?</a>
+    </div> -->
+
+  </div>
+</div>
+{% endblock %}

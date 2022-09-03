@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block body %}
+  <br>
+  <br>
+	<center><img src="{{ user['image'] }}" height='100' width='100'></center>
+	<br>
+    <p><b>Full name : {{ user['firstname'] |capitalize }} {{ user['lastname'] |capitalize }}</b></p>
+	<br>
+	<p><b>E-mail : {{ user['email']}}</b></p>
+	<br>
+	<p><b>Phone : {{ user['telephone']}}</b></p>
+{% endblock %}
