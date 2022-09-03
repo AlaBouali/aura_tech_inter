@@ -3,7 +3,7 @@ Hello there! This my project as presented to you. I've devided the code to multi
 <br>
 <br>
 It have 'src/base.py' file that contains all necessary classes to store variables and functions as static to prevent any code confusion or clash. Each class have its own static functions and variables depending on its role in the app and they are well named and sef-explanatory I guess so I didnt put much comments there.
-<br>To see the security checks, session/permissions validation you can go to the end that file to "@app.before_request" and there you will find everything. I did this to make it easier on me to manage session/permissions for each page and use less code.
+<br>To see the security checks, session/permissions validation you can go to the end that file to "@app.before_request" ( line: 2632 ) and there you will find everything. I did this to make it easier on me to manage session/permissions for each page and use less code.
 <br>
 <br>
 the "models" folder contains the users's admin/editor views and a secure form with CSRF token auto-generated and auto-validated.
